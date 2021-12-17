@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin: 15px;
+  border-radius: 15px;
+  border: 3px solid #333;
+  background-color: rgba(235, 177, 162, 0.623);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+h1:hover {
+  background-color: rgba(201, 151, 139, 0.623);
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgba(192, 31, 79, 0.986);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/238/095/original/abstract-colorful-comic-book-design-background-vector.jpg);
+  background-blend-mode: screen;
+  background-size: cover;
+}
+
+#searchbar {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+  row-gap: 0px;
+  padding: 15px;
+  margin: 15px;
+  border: 3px solid #333;
+  border-radius: 15px;
+  background-color: rgba(235, 177, 162, 0.623);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+#searchbar:hover {
+  background-color: rgba(201, 151, 139, 0.623);
+}
+
+#infobox {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+  row-gap: 0px;
+  padding: 15px;
+  margin: 15px;
+  border: 3px solid #333;
+  border-radius: 15px;
+  background-color: rgba(235, 177, 162, 0.623);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+#infobox:hover {
+  background-color: rgba(201, 151, 139, 0.623);
+}
+
+img {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
+  margin: 30px;
+  border: 3px solid #333;
+  border-radius: 15px;
+}
+
+li {
+  display: grid;
+  color: white;
+  text-align: left;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+  padding: 15px;
+  margin: 15px;
+  border: 3px solid #333;
+  border-radius: 15px;
+  background-color: rgba(248, 104, 99, 0.747);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+li:hover {
+  background-color: rgba(230, 187, 187, 0.85);
+}
+
+#hint {
+  background-color: rgba(238, 148, 247, 0.932);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+#hint:hover {
+  background-color: rgba(243, 174, 234, 0.747);
+}
